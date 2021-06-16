@@ -1,0 +1,30 @@
+// program task 1 
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int num; char ch;
+float dec; double ldec;
+cout<<"SIZE OF char "<<sizeof(ch)<<" bytes\n";
+cout<<"SIZE OF Int "<<sizeof(num)<<" bytes\n";
+cout<<"SIZE OF float "<<sizeof(dec)<<" bytes\n";
+cout<<"SIZE OF double "<<sizeof(ldec)<<" bytes\n";
+getch();
+}
+
+// program task 2
+
+#include <stdio.h>
+#include<conio.h>
+#include<iostream.h>
+void main()
+{
+clrscr();
+float n1,n2,prod;
+cout<<"Enter two numbers : ";
+cin>>n1>>n2;
+prod=n1*n2;
+cout<<"\n Product: "<<prod;
+getch();
+}
